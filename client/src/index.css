@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+      font-family: 'Raleway', sans-serif;
+
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bubble-row{
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	min-width: 100px;
+
+/*	color: white;
+*/}
+
+.answer{
+	background: #ddb6c6!important;
+/*	color: white;
+*/}
+
+.admin .bubble-row,.top-bar{
+	background: #484c7f;
+	color: white;
+}
+
+.user .bubble-row{
+	background: #f1ecec;
+	color: black;
+}
+
+.avatar{
+	 height: 50px;
+     width: 50px;
+     background-size: 100vw 100vh;
+     background-size: cover;
+}
+
+.admin .avatar{   
+    background-image: url("/avatar/admin.jpg");   
+}
+
+
+.user .avatar{   
+    background-image: url("/avatar/user.png");   
+}
+
+.chat-window{
+	height: 80vh;
+	border: 1px #dddbdb solid;
+	overflow: auto;
+	margin-top: 50px;
+}
+
+.top-bar{
+	width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+}
+
+.wrap{
+	position: relative;
+	max-width: 1640px;
+    position: relative;
+    margin: 0px ;
+}
+
+.messaging-tool{
+  height: 7vh;
+}
+.form-control{
+	width: 100%!important;
+    height: 50px!important;
+  }
+
+
+/*Landing Page*/
+.content{
+	margin: 100px;
+}
+
+.initial-background{
+    height: 550px;
+    background-color: #a695ff;
+ }
+
+ .jumping-picture{
+ 	height: 100%;
+ 	width: 100%;
+ 	background-image: url("/jumping.jpg");   
+    background-size: cover;
+
+ }
+
+ .introduction{
+/* 	padding: 100px;
+*/ 	padding: 80px;
+
+
+ }
+
+
+  .introduction .second-content, .introduction .first-content{
+ 	letter-spacing: -0.05em;
+     white-space: pre;
+ }
+
+ .introduction .first-content{
+      font-size: 72px;
+ }
+
+ .introdcution .second-content{
+ 	font-size: 20px;
+ }
+
+
+ .btn-custom{
+ 	padding:20px;
+ }
+ .btn-pink{
+    background-color: rgb(243 60 153);
+    border: solid transparent 0px;
+    cursor: pointer !important;
+    transition: color 0.4s ease 0s;
+    color: #FFFFFF!important;
+    display: inline-block;
+    margin: calc(-1 * 0px) 0px 0;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .final-content{
+  	margin-left: 500px;
+  	margin-right: 500px;
+  	margin-top: 100px;
+
+  }
+
+  .final-content .resource{
+  	margin-top: 40px; 
+  	font-size: 14px;
+  	font: normal normal normal 14px/1.75em poppins-semibold,poppins,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.75em;
+    text-align: justify;
+  }
+
+  .btn-pink-border {
+    transition: all 0.2s ease, visibility 0s;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid #BD529B;
+    padding: 1rem;
+    width: 100%;
+    position: absolute;
+    text-align: justify;
+    color: #C00B65!important;
+    text-align: center;
+}
+
+.content-title-button{
+    width: 230px;
+	position: absolute;
+	 left: 0px; 
+	 top: 0px; 
+	 height: 53px;
+}
+
+
+.final-content h1{
+	color: #0E0055!important;
+}
+
+.resource p {
+	margin-top: 100px;
+}
+
+.header{
+    height: 100px;
+    position: fixed;
+	top: 0;
+	border: 1px solid black;
+	width: 100%;
+	z-index: 1;
+	background-color: white;
+	border-bottom: 3px solid #4842ff;
+}
+
+.logo-title{
+	font-size: 46px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.header-button{
+	transition: all 0.2s ease, visibility 0s;
+    border-radius: 50px;
+    background: linear-gradient(141deg, #a54daa 0%, #1b77cd 100%);
+    justify-content: center;
+    vertical-align: middle;
+
+}
+.header-button-title{
+	transition: inherit;
+    color: #FFFFFF;
+    margin: 0px 1.5px 0px 0px;
+    letter-spacing: 0.025em;
+    font-size: 16px
+}
+
+.chatboxblock{
+  margin-top: 150px!important;
+}
+
+.chat-header{
+  height: 50px;
+  background: #484c7f;
+  color: white;
+
+  }

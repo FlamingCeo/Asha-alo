@@ -24,8 +24,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository and navigate to the project directory.
 2. Install the required dependencies by running `npm install` in both the server and client directories.
-3. Start the server by running `npm start` in the server directory(webrtc-nodejs).
-4. Start the client by running `npm start` in the client directory(chatbot).
+3. Start the server by running `npm start` in the server directory.
+4. Start the client by running `npm start` in the client directory.
 5. Access the application by opening your browser and visiting `http://localhost:3000`.
 
 
